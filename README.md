@@ -7,5 +7,5 @@ Este projeto em C é um processador de dados de sensores que lê um arquivo de e
 Para compilar, use o comando:
 
 ```bash
-gcc -o processador progama1.c
-./processador dados.txt
+gcc -o progama1 progama1.c
+./progama1 dados.txt
