@@ -79,8 +79,8 @@ int compare_entries(const void* a, const void* b)
 {
     DataEntry* entry_a = (DataEntry*)a;
     DataEntry* entry_b = (DataEntry*)b;
-    if (entry_a->timestamp < entry_b->timestamp) return -1;
-    if (entry_a->timestamp > entry_b->timestamp) return 1;
+    if (entry_a->timestamp > entry_b->timestamp) return -1;
+    if (entry_a->timestamp < entry_b->timestamp) return 1;
     return 0;
 }
 
